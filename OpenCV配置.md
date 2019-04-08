@@ -7,8 +7,8 @@
 
 #### (2)VC++目录->库目录，添加 *\build\x64\vc15\lib
 
-> (3)链接器->输入->附加依赖项，添加 opencv_world\*\*\*d.lib 和 opencv_world\*\*\*d.lib（d表示debug）
+#### (3)链接器->输入->附加依赖项，添加 opencv_world\*\*\*d.lib 和 opencv_world\*\*\*d.lib（d表示debug）
 
-#### > (4)如果碰到“fatal error LNK1104：无法打开文件“opencv_world\*\*\*d.lib”，链接器->常规->附加器目录，添加 *\build\x64\vc15\lib
+#### (4)如果碰到“fatal error LNK1104：无法打开文件“opencv_world\*\*\*d.lib”，链接器->常规->附加器目录，添加 *\build\x64\vc15\lib
 
 ### ***以上星号内容均为视具体情况***
